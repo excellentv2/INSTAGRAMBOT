@@ -19,6 +19,11 @@ def send_message(user_id, message):
 def follow_and_message(user_id, message):
     bot.follow(user_id)
     send_message(user_id, message)
+    time.sleep(10)
+
+def follow_and_message(user_id, message):
+    bot.follow(user_id)
+    send_message(user_id, message)
 
 def follow_followers_and_message(user_id, message):
     followers = bot.get_user_followers(user_id)
