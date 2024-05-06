@@ -15,6 +15,9 @@
 
 Установите текущую версию INSTABOT: 
 ```python
+python --version
+```
+```python
 pip install instabot
 ```
 ## Все если сделали правильно то можете запускать батник.
